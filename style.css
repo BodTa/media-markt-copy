@@ -1,8 +1,11 @@
 body {
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
-  background-color: #e0e0e0d5;
+  margin: 0;
+  padding: 0;
+  background-color: #000000d5;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 .home {
@@ -12,7 +15,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: start;
-  gap: 3rem;
 }
 .main-section {
   width: 80%;
