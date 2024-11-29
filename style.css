@@ -3,6 +3,7 @@ body {
   height: 100vh;
   background-color: #e0e0e0d5;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 .home {
