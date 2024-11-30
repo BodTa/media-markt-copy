@@ -8,9 +8,7 @@
         Özel Teklifler
       </button>
       <button class="sidebar-button" @click="updateState(2)">Footer</button>
-      <button class="sidebar-button" @click="updateState(3)">
-        Önerilenler
-      </button>
+      <button class="sidebar-button" @click="updateState(3)">Kampanya</button>
       <button class="sidebar-button" @click="updateState(4)">
         Çok satanlar
       </button>
@@ -39,7 +37,7 @@
       <Footer />
     </div>
     <div class="main-section" v-if="state === 3">
-      <Recomendeds />
+      <CampainCard />
     </div>
     <div class="main-section" v-if="state === 4">
       <MostSolds />
@@ -74,7 +72,7 @@ import MostSolds from "./components/mostSolds.vue";
 import Opportunities from "./components/opportunities.vue";
 import OurServices from "./components/ourServices.vue";
 import ProductAdvert from "./components/productAdvert.vue";
-import Recomendeds from "./components/recomendeds.vue";
+import CampainCard from "./components/campainCard.vue";
 import SpecialOffers from "./components/specialOffers.vue";
 export default {
   data() {
