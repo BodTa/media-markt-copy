@@ -225,6 +225,8 @@ export default {
 <style scoped>
 .logo {
   background-color: red;
+  width: 190px;
+  height: auto;
 }
 
 .categories {
