@@ -7,7 +7,7 @@
         <p class="ourservices-subtext">Mağazadan Teslim Al</p>
       </div>
       <div class="ourservices-item">
-        <img src="/public/images/UcretsizKargo.png" alt="" style=""/>
+        <img src="/public/images/UcretsizKargo.png" alt="" />
         <p class="ourservices-subtext">Ücretsiz Kargo</p>
         </div>
       <div class="ourservices-item">
