@@ -5,25 +5,25 @@
         <img src="/public/images/CepTelefonlari.png" alt="" />
         <p class="category-subtext">Cep Telefonları</p>
       </div>
-      <div class="category-item">
+      <div class="categoryy-item">
         <img src="/public/images/Bilgisayarlar.png" alt="" />
         <p class="category-subtext">Bilgisayarlar</p>
         </div>
-      <div class="category-item">
+      <div class="categoryy-item">
         <img src="/public/images/BeyazEsya.png" alt="" />
         <p class="category-subtext">Beyaz Eşya</p>
       </div>
-      <div class="category-item">
+      <div class="categoryy-item">
         <img src="/public/images/KucukEvAletleri.png" alt="" />
         <p class="category-subtext">Küçük Ev Aletleri</p>
       </div>
-      <div class="category-item">
+      <div class="categoryy-item">
         <img src="/public/images/Supurgeler.png" alt="" />
         <p class="category-subtext">Süpürgeler</p>
       </div>
-      <div class="category-item">
+      <div class="categoryy-item">
         <img src="/public/images/Televizyonlar.png" alt="" />
-        <p class="category-subtext">Televizyonlar</p>
+        <p class="categoryy-subtext">Televizyonlar</p>
       </div>
     </div>
     
@@ -51,7 +51,7 @@
   color: rgb(156, 156, 156);
 }
 
-.category-item:hover {
+.categoryy-item:hover {
   text-decoration: underline;
   text-decoration-color: white;
   border-radius: 10px;
