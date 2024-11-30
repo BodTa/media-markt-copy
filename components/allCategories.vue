@@ -3,11 +3,12 @@
     <img src="/public/images/logo.svg" alt="" class="logo" />
     <h2>Tüm Kategoriler</h2>
     <ul>
-      <li v-for="category in categories" :key="category.id" class="category-item">
-        <span @click="toggleCategory(category.id)">
+      <li style="list-style-type: none;" v-for="category in categories" :key="category.id" class="category-item">
+        <span v-on:mouseover="toggleCategory(category.id,true)" v-on:mouseleave="toggleCategory(category.id,false)">
           {{ category.name }}
         </span>
         <ul v-if="category.open">
+          
           <li v-for="subCategory in category.subCategories" :key="subCategory.id">
             {{ subCategory.name }}
           </li>
@@ -205,9 +206,13 @@ export default {
     };
   },
   methods: {
-    toggleCategory(id) {
+    toggleCategory(id,open) {
       this.categories = this.categories.map((category) => {
         if (category.id === id) {
+          for (let index = 0; index < 10; index++) {
+            if (this.categories[index].id != id && this.categories[index].open) this.categories[index].open = false;
+            else continue;
+          }
           return { ...category, open: !category.open };
         }
         return category;
