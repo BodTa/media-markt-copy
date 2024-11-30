@@ -1,5 +1,6 @@
 <template>
   <div class="categories">
+    <img src="/public/images/logo.svg" alt="" class="logo" />
     <h2>Tüm Kategoriler</h2>
     <ul>
       <li v-for="category in categories" :key="category.id" class="category-item">
@@ -217,6 +218,10 @@ export default {
 </script>
 
 <style scoped>
+.logo {
+  background-color: red;
+}
+
 .categories {
   padding: 16px;
   background-color: #f9f9f9;
