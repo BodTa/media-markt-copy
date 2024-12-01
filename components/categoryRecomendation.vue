@@ -1,7 +1,7 @@
 <template>
   <div class="category-recommendations">
     <div class="category-container">
-      <div class="category-item">
+      <div class="categoryy-item">
         <img src="/public/images/CepTelefonlari.png" alt="" />
         <p class="category-subtext">Cep Telefonları</p>
       </div>
@@ -49,6 +49,11 @@
   text-align: center;
   font-size: 15px;
   color: rgb(208, 208, 208);
+}
+
+.categoryy-item > img {
+  width: 160px;
+  height: auto;
 }
 
 .categoryy-item:hover {
