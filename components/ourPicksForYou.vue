@@ -40,7 +40,10 @@ background-color: black;
 }
 
 .ourPicksForYou-container {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
 }
 
 .ourPicksForYou-item {
