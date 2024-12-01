@@ -65,7 +65,7 @@
   gap: 5px;
 }
 
-img {
+.ourservices-item > img {
   width: auto;
   height: 95px;
   padding: 20px;
