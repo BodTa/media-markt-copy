@@ -3,7 +3,7 @@
     <div class="opportunities-container">
       <div class="opportunity-item">
         <img src="/public/images/MobilUygulamamiziKesfedin.png" alt="" />
-        <p class="opportunity-subtext">Mobil Uygulamamızı Keşfedin!</p>
+        <p class="opportunity-subtext">Mobil Uygulamamızı<br> Keşfedin!</p>
       </div>
       <div class="opportunity-item">
         <img src="/public/images/CLUBPuan.png" alt="" />
@@ -50,6 +50,11 @@
   text-decoration-color: white;
   border-radius: 10px;
   background-color: rgb(34, 34, 34);
+}
+
+.opportunity-item > img {
+  width: 160px;
+  height: auto;
 }
 
 .opportunity-subtext {
