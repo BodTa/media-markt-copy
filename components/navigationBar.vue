@@ -138,7 +138,7 @@ export default {
 }
 .all-cat-button {
   font-weight: 600;
-  width: 30%;
+  width: 15%;
   display: flex;
   justify-content: center;
   gap: 0.3rem;
@@ -157,7 +157,7 @@ export default {
 }
 .search {
   width: 30%;
-  width: 60%;
+  width: 30%;
   position: relative;
   background-color: white;
   display: flex;
