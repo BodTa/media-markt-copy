@@ -44,7 +44,7 @@
             >
           </div>
           <div class="card-description">
-            <div class="buttons">
+            <div class="des-buttons">
               <button>3 Taksit</button>
               <button>App'e Özel 5 Puan</button>
             </div>
@@ -96,7 +96,7 @@
             >
           </div>
           <div class="card-description">
-            <div class="buttons">
+            <div class="des-buttons">
               <button>3 Taksit</button>
               <button>App'e Özel 5 Puan</button>
             </div>
@@ -210,13 +210,15 @@
   padding: 0.5rem;
   gap: 0.5rem;
 }
-.buttons {
+.des-buttons {
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: end;
+  gap: 0.3rem;
+  padding-top: 5%;
 }
-.buttons > button {
+.des-buttons > button {
   width: auto;
   border: rgb(223, 0, 0) solid 0.5px;
   background-color: transparent;
