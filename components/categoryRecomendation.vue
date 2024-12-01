@@ -23,7 +23,7 @@
       </div>
       <div class="categoryy-item">
         <img src="/public/images/Televizyonlar.png" alt="" />
-        <p class="categoryy-subtext">Televizyonlar</p>
+        <p class="category-subtext">Televizyonlar</p>
       </div>
     </div>
     
@@ -48,7 +48,7 @@
 .category-subtext {
   text-align: center;
   font-size: 15px;
-  color: rgb(156, 156, 156);
+  color: rgb(208, 208, 208);
 }
 
 .categoryy-item:hover {
