@@ -20,7 +20,7 @@
       <button class="sidebar-button" @click="updateState(8)">
         Kategori önerileri
       </button>
-      <button class="sidebar-button" @click="updateState(9)">Ürün ilanı</button>
+      <button class="sidebar-button" @click="updateState(9)">Sizin İçin Seçtiklerimiz</button>
       <span>current index: {{ state }}</span>
     </div>
 
@@ -55,7 +55,7 @@
       <CategoryRecomendation />
     </div>
     <div class="main-section" v-if="state === 9">
-      <ProductAdvert />
+      <OurPicksForYou />
     </div>
   </div>
 </template>
@@ -69,7 +69,7 @@ import Footer from "./components/footer.vue";
 import Slider from "./components/slider.vue";
 import Opportunities from "./components/opportunities.vue";
 import OurServices from "./components/ourServices.vue";
-import ProductAdvert from "./components/productAdvert.vue";
+import ProductAdvert from "./components/ourPicksForYou.vue";
 import CampainCard from "./components/campainCard.vue";
 import SpecialOffers from "./components/specialOffers.vue";
 export default {
