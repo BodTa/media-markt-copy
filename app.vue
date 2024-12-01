@@ -9,9 +9,7 @@
       </button>
       <button class="sidebar-button" @click="updateState(2)">Footer</button>
       <button class="sidebar-button" @click="updateState(3)">Kampanya</button>
-      <button class="sidebar-button" @click="updateState(4)">
-        Çok satanlar
-      </button>
+      <button class="sidebar-button" @click="updateState(4)">Slider</button>
       <button class="sidebar-button" @click="updateState(5)">
         Tüm kategoriler
       </button>
@@ -40,7 +38,7 @@
       <CampainCard />
     </div>
     <div class="main-section" v-if="state === 4">
-      <MostSolds />
+      <Slider />
     </div>
 
     <!-- Alican'ın Yapıcakları -->
@@ -68,7 +66,7 @@ import NavigationBar from "./components/navigationBar.vue";
 import AllCategories from "./components/allCategories.vue";
 import CategoryRecomendation from "./components/categoryRecomendation.vue";
 import Footer from "./components/footer.vue";
-import MostSolds from "./components/mostSolds.vue";
+import Slider from "./components/slider.vue";
 import Opportunities from "./components/opportunities.vue";
 import OurServices from "./components/ourServices.vue";
 import ProductAdvert from "./components/productAdvert.vue";
