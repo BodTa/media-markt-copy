@@ -142,7 +142,7 @@ export default {
 .second-section {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 1rem;
 }
