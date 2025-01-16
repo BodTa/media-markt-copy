@@ -1,5 +1,7 @@
 <template>
+  <navigationBar />
   <NuxtPage />
+  <footerBar />
 </template>
 
 <script>

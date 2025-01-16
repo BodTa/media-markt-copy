@@ -20,5 +20,3 @@ export default defineNuxtPlugin(() => {
     },
   };
 });
-
-const { $db } = useNuxtApp();
