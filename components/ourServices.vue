@@ -2,36 +2,21 @@
   <div class="ourservices">
     <p class="ourservices-text">Hizmetlerimiz</p>
     <div class="ourservices-container">
-      <div class="ourservices-item">
-        <img src="/public/images/MagazadanTeslimAl.png" alt="" />
-        <p class="ourservices-subtext">Mağazadan Teslim Al</p>
-      </div>
-      <div class="ourservices-item">
-        <img src="/public/images/UcretsizKargo.png" alt="" />
-        <p class="ourservices-subtext">Ücretsiz Kargo</p>
-        </div>
-      <div class="ourservices-item">
-        <img src="/public/images/KolayIade.png" alt="" />
-        <p class="ourservices-subtext">Kolay İade</p>
-      </div>
-      <div class="ourservices-item">
-        <img src="/public/images/AlisverisKredisi.png" alt="" />
-        <p class="ourservices-subtext">Alışveriş Kredisi</p>
-      </div>
-      <div class="ourservices-item">
-        <img src="/public/images/OnarimKurulumAriza.png" alt="" />
-        <p class="ourservices-subtext">Onarım/Kurulum/Arıza</p>
-      </div>
-      <div class="ourservices-item">
-        <img src="/public/images/HediyeKartiBakiyeniz.png" alt="" />
-        <p class="ourservices-subtext">Hediye Kartı Bakiyeniz</p>
+      <div v-for="service in services" :key="service.id" class="ourservices-item">
+        <img :src="service.image" alt="" />
+        <p class="ourservices-subtext">{{ service.title }}</p>
       </div>
     </div>
     
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+defineProps<{
+  services: Service[]
+}>()
+
+</script>
 
 <style>
 .ourservices {
