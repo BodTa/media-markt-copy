@@ -94,10 +94,7 @@
             gap: '10px',
           }"
         >
-          <a
-            target="_self"
-            href="https://www.facebook.com/MediaMarktTurkiye/"
-            aria-label="Social media "
+          <span target="_self" aria-label="Social media "
             ><div width="24" height="24">
               <svg width="32" height="32" viewBox="0 0 24 24">
                 <path
@@ -106,11 +103,8 @@
                   clip-rule="evenodd"
                 ></path>
               </svg>
-            </div> </a
-          ><a
-            target="_self"
-            href="https://www.instagram.com/mediamarkt_tr/"
-            aria-label="Social media "
+            </div> </span
+          ><span target="_self" aria-label="Social media "
             ><div width="24" height="24">
               <svg width="32" height="32" viewBox="0 0 24 24">
                 <path
@@ -118,20 +112,14 @@
                   d="M13.0276 2.0008c1.8004.0032 2.1812.0177 3.0954.0594 1.0644.0485 1.7913.2176 2.4274.4648.6576.2555 1.2153.5975 1.7712 1.1534.556.556.8979 1.1136 1.1534 1.7712.2472.636.4163 1.363.4648 2.4274.0105.2286.0192.4238.0265.6162l.0068.1926c.0168.517.024 1.0864.0261 2.2867v2.055c-.0021 1.2003-.0093 1.7697-.0261 2.2867l-.0068.1926c-.0073.1924-.016.3876-.0265.6162-.0485 1.0644-.2176 1.7913-.4648 2.4274-.2555.6576-.5975 1.2152-1.1534 1.7712-.556.556-1.1136.8979-1.7712 1.1534-.6361.2472-1.363.4163-2.4274.4648a79 79 0 0 1-.6162.0264l-.1926.0068c-.517.017-1.0864.024-2.2866.0262h-2.0552c-1.2002-.0022-1.7696-.0093-2.2866-.0262l-.1926-.0068a79 79 0 0 1-.6162-.0264c-1.0644-.0485-1.7913-.2176-2.4274-.4648-.6576-.2555-1.2153-.5975-1.7712-1.1534-.556-.556-.8979-1.1136-1.1534-1.7712-.2472-.636-.4163-1.363-.4648-2.4274-.0418-.9142-.0562-1.295-.0594-3.0954v-2.0551c.0032-1.8005.0176-2.1813.0594-3.0955.0485-1.0644.2176-1.7913.4648-2.4274.2555-.6576.5975-1.2152 1.1534-1.7712.556-.556 1.1136-.8979 1.7712-1.1534.6361-.2472 1.363-.4163 2.4274-.4648.9142-.0417 1.295-.0562 3.0954-.0594Zm-.4717 1.8012H11.444l-.2512.0002-.4538.0008c-1.5517.0039-1.9208.018-2.78.0571-.975.0445-1.5045.2074-1.8568.3443-.4668.1814-.7999.3981-1.1498.748-.35.35-.5667.6831-.748 1.1499-.137.3524-.3.8819-.3444 1.8568-.0392.8592-.0532 1.2283-.057 2.78l-.0009.4538-.0002.2512v1.1118l.0002.2512.0008.4538c.0039 1.5517.0179 1.9208.057 2.78.0446.975.2075 1.5044.3444 1.8568.1814.4668.3981.8.748 1.1498.35.35.6831.5667 1.1499.748.3523.137.8819.3 1.8569.3444.898.041 1.2606.0544 2.999.0575l.7546.0008h.5744l.7546-.0008c1.7384-.003 2.101-.0165 2.999-.0575.975-.0445 1.5046-.2074 1.857-.3443.4667-.1814.7998-.3981 1.1497-.748s.5667-.6831.748-1.1499c.137-.3524.3-.8819.3444-1.8568.041-.8983.0544-1.2609.0575-2.9991l.0007-.7546v-.5743l-.0007-.7547c-.003-1.7382-.0165-2.1008-.0575-2.999-.0445-.975-.2074-1.5045-.3443-1.857-.1814-.4667-.3981-.7998-.748-1.1497s-.6831-.5667-1.1499-.748c-.3523-.137-.8819-.3-1.8569-.3444-.8592-.0392-1.2282-.0532-2.78-.057l-.4537-.0009zM12 7c2.7614 0 5 2.2386 5 5s-2.2386 5-5 5-5-2.2386-5-5 2.2386-5 5-5m0 1.7544c-1.7925 0-3.2456 1.453-3.2456 3.2456S10.2075 15.2456 12 15.2456s3.2456-1.453 3.2456-3.2456S13.7925 8.7544 12 8.7544M17.5 5.5c.5523 0 1 .4477 1 1s-.4477 1-1 1-1-.4477-1-1 .4477-1 1-1"
                 ></path>
               </svg>
-            </div> </a
-          ><a
-            target="_self"
-            href="https://twitter.com/mediamarkt_tr"
-            aria-label="Social media "
+            </div> </span
+          ><span target="_self" aria-label="Social media "
             ><img
               src="https://cms-images.mmst.eu/wgppmdcw3act/5Dz4ytUj4yI6FuJihMCft9/ead9837bc4f5768d55349898948ed129/x-logo.svg?q=80"
               alt=""
               width="24"
-              height="24" /></a
-          ><a
-            target="_self"
-            href="https://www.youtube.com/user/MediaMarktTR"
-            aria-label="Social media "
+              height="24" /></span
+          ><span target="_self" aria-label="Social media "
             ><div width="24" height="24">
               <svg width="32" height="32" viewBox="0 0 24 24">
                 <path
@@ -141,179 +129,126 @@
               </svg>
             </div>
             <span direction="horizontal" class="sc-ed7fa5f6-0 jfuoKt"></span
-          ></a>
+          ></span>
         </div>
       </div>
       <div class="nav-container">
         <span class="header">Popüler Kategoriler</span>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/cep-telefonlari-504171.html"
-            aria-label="Cep Telefonları"
+          <span target="_self" aria-label="Cep Telefonları"
             ><span font-family="default" font-size="xs"
               >Cep Telefonları</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/akilli-saatler-862018.html"
-            aria-label="Akıllı Saatler"
-            ><span font-family="default" font-size="xs">Akıllı Saatler</span></a
+          <span target="_self" aria-label="Akıllı Saatler"
+            ><span font-family="default" font-size="xs"
+              >Akıllı Saatler</span
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/tabletler-639520.html"
-            aria-label="Tabletler"
-            ><span font-family="default" font-size="xs">Tabletler</span></a
+          <span target="_self" aria-label="Tabletler"
+            ><span font-family="default" font-size="xs">Tabletler</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/laptop-504926.html"
-            aria-label="Laptop"
-            ><span font-family="default" font-size="xs">Laptop</span></a
+          <span target="_self" aria-label="Laptop"
+            ><span font-family="default" font-size="xs">Laptop</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/televizyon-465019.html"
-            aria-label="Televizyon"
-            ><span font-family="default" font-size="xs">Televizyon</span></a
+          <span target="_self" aria-label="Televizyon"
+            ><span font-family="default" font-size="xs">Televizyon</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/robot-supurge-465744.html"
-            aria-label="Robot Süpürgeler"
+          <span target="_self" aria-label="Robot Süpürgeler"
             ><span font-family="default" font-size="xs"
               >Robot Süpürgeler</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/beyaz-esya-465707.html"
-            aria-label="Beyaz Eşyalar"
-            ><span font-family="default" font-size="xs">Beyaz Eşyalar</span></a
+          <span target="_self" aria-label="Beyaz Eşyalar"
+            ><span font-family="default" font-size="xs"
+              >Beyaz Eşyalar</span
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/camasir-makineleri-809009.html"
-            aria-label="Çamaşır Makineleri"
+          <span target="_self" aria-label="Çamaşır Makineleri"
             ><span font-family="default" font-size="xs"
               >Çamaşır Makineleri</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/bulasik-makineleri-712509.html"
-            aria-label="Bulaşık Makineleri"
+          <span target="_self" aria-label="Bulaşık Makineleri"
             ><span font-family="default" font-size="xs"
               >Bulaşık Makineleri</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/buzdolabi-465709.html"
-            aria-label="Buzdolabı"
-            ><span font-family="default" font-size="xs">Buzdolabı</span></a
+          <span target="_self" aria-label="Buzdolabı"
+            ><span font-family="default" font-size="xs">Buzdolabı</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/dikey-supurge-465743.html"
-            aria-label="Dikey Süpürgeler"
+          <span target="_self" aria-label="Dikey Süpürgeler"
             ><span font-family="default" font-size="xs"
               >Dikey Süpürgeler</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/kisisel-bakim-465820.html"
-            aria-label="Kişisel Bakım Ürünleri"
+          <span target="_self" aria-label="Kişisel Bakım Ürünleri"
             ><span font-family="default" font-size="xs"
               >Kişisel Bakım Ürünleri</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/klimalar-465752.html"
-            aria-label="Klimalar"
-            ><span font-family="default" font-size="xs">Klimalar</span></a
+          <span target="_self" aria-label="Klimalar"
+            ><span font-family="default" font-size="xs">Klimalar</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/filtre-kahve-makineleri-806538.html"
-            aria-label="Filtre Kahve Makineleri"
+          <span target="_self" aria-label="Filtre Kahve Makineleri"
             ><span font-family="default" font-size="xs"
               >Filtre Kahve Makineleri</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/isiticilar-806516.html"
-            aria-label="Isıtıcılar"
-            ><span font-family="default" font-size="xs">Isıtıcılar</span></a
+          <span target="_self" aria-label="Isıtıcılar"
+            ><span font-family="default" font-size="xs">Isıtıcılar</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/kulakliklar-795538.html"
-            aria-label="Kulaklıklar"
-            ><span font-family="default" font-size="xs">Kulaklıklar</span></a
+          <span target="_self" aria-label="Kulaklıklar"
+            ><span font-family="default" font-size="xs">Kulaklıklar</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/bluetooth-kulakliklar-795539.html"
-            aria-label="Bluetooth Kulaklıklar"
+          <span target="_self" aria-label="Bluetooth Kulaklıklar"
             ><span font-family="default" font-size="xs"
               >Bluetooth Kulaklıklar</span
-            ></a
+            ></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/elektrikli-scooter-799010.html"
-            aria-label="Scooter"
-            ><span font-family="default" font-size="xs">Scooter</span></a
+          <span target="_self" aria-label="Scooter"
+            ><span font-family="default" font-size="xs">Scooter</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/telefon-koruyucular-640554.html"
-            aria-label="Telefon Kılıfları"
+          <span target="_self" aria-label="Telefon Kılıfları"
             ><span font-family="default" font-size="xs"
               >Telefon Kılıfları</span
-            ></a
+            ></span
           >
         </li>
       </div>
@@ -321,163 +256,103 @@
         <span class="header">Popüler Ürünler</span>
 
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-16-903528.html"
-            aria-label="Apple iPhone 16"
-            ><span>Apple iPhone 16</span></a
+          <span target="_self" aria-label="Apple iPhone 16"
+            ><span>Apple iPhone 16</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-16-plus-903529.html"
-            aria-label="Apple iPhone 16 Plus"
-            ><span>Apple iPhone 16 Plus</span></a
+          <span target="_self" aria-label="Apple iPhone 16 Plus"
+            ><span>Apple iPhone 16 Plus</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-16-pro-903530.html"
-            aria-label="Apple iPhone 16 Pro"
-            ><span>Apple iPhone 16 Pro</span></a
+          <span target="_self" aria-label="Apple iPhone 16 Pro"
+            ><span>Apple iPhone 16 Pro</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-16-pro-max-903531.html"
-            aria-label="Apple iPhone 16 Pro Max"
-            ><span>Apple iPhone 16 Pro Max</span></a
+          <span target="_self" aria-label="Apple iPhone 16 Pro Max"
+            ><span>Apple iPhone 16 Pro Max</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-15-878045.html"
-            aria-label="Apple iPhone 15"
-            ><span>Apple iPhone 15</span></a
+          <span target="_self" aria-label="Apple iPhone 15"
+            ><span>Apple iPhone 15</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-15-pro-860034.html"
-            aria-label="Apple iPhone 15 Pro"
-            ><span>Apple iPhone 15 Pro</span></a
+          <span target="_self" aria-label="Apple iPhone 15 Pro"
+            ><span>Apple iPhone 15 Pro</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-15-pro-max-860032.html"
-            aria-label="Apple iPhone 15 Pro Max"
-            ><span>Apple iPhone 15 Pro Max</span></a
+          <span target="_self" aria-label="Apple iPhone 15 Pro Max"
+            ><span>Apple iPhone 15 Pro Max</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-15-plus-860033.html"
-            aria-label="Apple iPhone 15 Plus"
-            ><span>Apple iPhone 15 Plus</span></a
+          <span target="_self" aria-label="Apple iPhone 15 Plus"
+            ><span>Apple iPhone 15 Plus</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-14-828526.html"
-            aria-label="Apple iPhone 14"
-            ><span>Apple iPhone 14</span></a
+          <span target="_self" aria-label="Apple iPhone 14"
+            ><span>Apple iPhone 14</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-14-plus-828529.html"
-            aria-label="Apple iPhone 14 Plus"
-            ><span>Apple iPhone 14 Plus</span></a
+          <span target="_self" aria-label="Apple iPhone 14 Plus"
+            ><span>Apple iPhone 14 Plus</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-13-801528.html"
-            aria-label="Apple iPhone 13"
-            ><span>Apple iPhone 13</span></a
+          <span target="_self" aria-label="Apple iPhone 13"
+            ><span>Apple iPhone 13</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-12-781536.html"
-            aria-label="Apple iPhone 12"
-            ><span>Apple iPhone 12</span></a
+          <span target="_self" aria-label="Apple iPhone 12"
+            ><span>Apple iPhone 12</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/iphone-11-878044.html"
-            aria-label="Apple iPhone 11 "
-            ><span>Apple iPhone 11 </span></a
+          <span target="_self" aria-label="Apple iPhone 11 "
+            ><span>Apple iPhone 11 </span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/airpods-791012.html"
-            aria-label="Apple Airpods"
-            ><span>Apple Airpods</span></a
+          <span target="_self" aria-label="Apple Airpods"
+            ><span>Apple Airpods</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/samsung-telefon-796041.html"
-            aria-label="Samsung Cep Telefonları"
-            ><span>Samsung Cep Telefonları</span></a
+          <span target="_self" aria-label="Samsung Cep Telefonları"
+            ><span>Samsung Cep Telefonları</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/huawei-akilli-saatler-862019.html"
-            aria-label="Huawei Akıllı Saatler"
-            ><span>Huawei Akıllı Saatler</span></a
+          <span target="_self" aria-label="Huawei Akıllı Saatler"
+            ><span>Huawei Akıllı Saatler</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/hp-laptop-797526.html"
-            aria-label="HP Laptop"
-            ><span>HP Laptop</span></a
+          <span target="_self" aria-label="HP Laptop"
+            ><span>HP Laptop</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/category/samsung-tv-793009.html"
-            aria-label="Samsung TV"
-            ><span>Samsung TV</span></a
+          <span target="_self" aria-label="Samsung TV"
+            ><span>Samsung TV</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/product/_dyson-v15-detect-kablosuz-sarjli-dikey-supurge-sari-nikel-1232522.html"
-            aria-label="Dyson v15"
-            ><span>Dyson v15</span></a
+          <span target="_self" aria-label="Dyson v15"
+            ><span>Dyson v15</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/product/_dyson-airwraptm-sac-sekillendirme-ve-kurutma-seti-diffuse-parlak-nikel-parlak-bakir-1236769.html"
-            aria-label="Dyson Airwrap"
-            ><span>Dyson Airwrap</span></a
+          <span target="_self" aria-label="Dyson Airwrap"
+            ><span>Dyson Airwrap</span></span
           >
         </li>
       </div>
@@ -485,83 +360,37 @@
         <span class="header">Popüler Markalar</span>
 
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/apple"
-            aria-label="Apple"
-            ><span>Apple</span></a
+          <span target="_self" aria-label="Apple"><span>Apple</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Samsung"><span>Samsung</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Dyson"><span>Dyson</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="HP"><span>HP</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Bosch"><span>Bosch</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Philips"><span>Philips</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Tefal"><span>Tefal</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Vestel"><span>Vestel</span></span>
+        </li>
+        <li>
+          <span target="_self" aria-label="Nespresso"
+            ><span>Nespresso</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/samsung"
-            aria-label="Samsung"
-            ><span>Samsung</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/dyson"
-            aria-label="Dyson"
-            ><span>Dyson</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/hp"
-            aria-label="HP"
-            ><span>HP</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/bosch"
-            aria-label="Bosch"
-            ><span>Bosch</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/philips"
-            aria-label="Philips"
-            ><span>Philips</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/tefal"
-            aria-label="Tefal"
-            ><span>Tefal</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/vestel"
-            aria-label="Vestel"
-            ><span>Vestel</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand/nespresso"
-            aria-label="Nespresso"
-            ><span>Nespresso</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/brand"
-            aria-label="Tüm Markalar"
-            ><span>Tüm Markalar</span></a
+          <span target="_self" aria-label="Tüm Markalar"
+            ><span>Tüm Markalar</span></span
           >
         </li>
       </div>
@@ -569,149 +398,95 @@
         <span class="header">Konsept Sayfalar</span>
 
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/okul-alisverisi"
-            aria-label="Okul Alışverişi"
-            ><span>Okul Alışverişi</span></a
+          <span target="_self" aria-label="Okul Alışverişi"
+            ><span>Okul Alışverişi</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/yilbasi-hediyeleri"
-            aria-label="Yılbaşı Hediyeleri"
-            ><span>Yılbaşı Hediyeleri</span></a
+          <span target="_self" aria-label="Yılbaşı Hediyeleri"
+            ><span>Yılbaşı Hediyeleri</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/barista"
-            aria-label="Barista CLUB"
-            ><span>Barista CLUB</span></a
+          <span target="_self" aria-label="Barista CLUB"
+            ><span>Barista CLUB</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/babalar-gunu-hediyesi"
-            aria-label="Babalar Günü"
-            ><span>Babalar Günü</span></a
+          <span target="_self" aria-label="Babalar Günü"
+            ><span>Babalar Günü</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/karne-hediyesi"
-            aria-label="Karne Günü Hediyeleri"
-            ><span>Karne Günü Hediyeleri</span></a
+          <span target="_self" aria-label="Karne Günü Hediyeleri"
+            ><span>Karne Günü Hediyeleri</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/yenilenmis-telefon-nedir"
-            aria-label="Yenilenmiş Cep Telefonu"
-            ><span>Yenilenmiş Cep Telefonu</span></a
+          <span target="_self" aria-label="Yenilenmiş Cep Telefonu"
+            ><span>Yenilenmiş Cep Telefonu</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/eski-cihazini-yenile"
-            aria-label="Eskiyi Getir Yeniyi Götür"
-            ><span>Eskiyi Getir Yeniyi Götür</span></a
+          <span target="_self" aria-label="Eskiyi Getir Yeniyi Götür"
+            ><span>Eskiyi Getir Yeniyi Götür</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/cihaz-kiralama-hizmeti"
-            aria-label="Cihaz Kiralama Hizmeti"
-            ><span>Cihaz Kiralama Hizmeti</span></a
+          <span target="_self" aria-label="Cihaz Kiralama Hizmeti"
+            ><span>Cihaz Kiralama Hizmeti</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/gaming"
-            aria-label="Gamezone"
-            ><span>Gamezone</span></a
+          <span target="_self" aria-label="Gamezone"
+            ><span>Gamezone</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/yuvakuran-dugun-paketleri"
-            aria-label="Düğün Paketleri"
-            ><span>Düğün Paketleri</span></a
+          <span target="_self" aria-label="Düğün Paketleri"
+            ><span>Düğün Paketleri</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/ev-temizlik-dunyasi"
-            aria-label="Temizlik Dünyası"
-            ><span>Temizlik Dünyası</span></a
+          <span target="_self" aria-label="Temizlik Dünyası"
+            ><span>Temizlik Dünyası</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/anneler-gunu-hediyesi"
-            aria-label="Anneler Günü"
-            ><span>Anneler Günü</span></a
+          <span target="_self" aria-label="Anneler Günü"
+            ><span>Anneler Günü</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/black-friday"
-            aria-label="Black Friday"
-            ><span>Black Friday</span></a
+          <span target="_self" aria-label="Black Friday"
+            ><span>Black Friday</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/cyber-monday-indirimleri"
-            aria-label="Siber Pazartesi (Cyber Monday)"
-            ><span>Siber Pazartesi (Cyber Monday)</span></a
+          <span target="_self" aria-label="Siber Pazartesi (Cyber Monday)"
+            ><span>Siber Pazartesi (Cyber Monday)</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/campaign/11-11-indirimi"
-            aria-label="11 Kasım İndirimleri"
-            ><span>11 Kasım İndirimleri</span></a
+          <span target="_self" aria-label="11 Kasım İndirimleri"
+            ><span>11 Kasım İndirimleri</span></span
           >
         </li>
         <li>
-          <a
+          <span
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.mediamarkt.com.tr/tr/specials/photo"
             aria-label="Foto Konsept"
-            ><span>Foto Konsept</span></a
+            ><span>Foto Konsept</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/teknoloji-urunleri"
-            aria-label="Teknoloji Konsept"
-            ><span>Teknoloji Konsept</span></a
+          <span target="_self" aria-label="Teknoloji Konsept"
+            ><span>Teknoloji Konsept</span></span
           >
         </li>
         <li>
-          <a
-            target="_self"
-            href="https://www.mediamarkt.com.tr/tr/specials/tv-alirken-dikkat"
-            aria-label="TV Alırken Dikkat Edilmesi Gerekenler"
-            ><span>TV Alırken Dikkat Edilmesi Gerekenler</span></a
-          >
+          <span>TV Alırken Dikkat Edilmesi Gerekenler</span>
         </li>
         <li>
           <a
