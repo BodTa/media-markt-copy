@@ -1,105 +1,49 @@
+<script lang="ts" setup>
+import type Campain from "~/models/Campain";
+
+defineProps<{
+  campain: Campain;
+}>();
+</script>
+
 <template>
-  <div class="wrapper">
-    <div class="campain-card">
-      <div class="card-left">
-        <div class="buttons">
-          <button>Son Gün 2 Aralık</button>
-          <button>App Özel 5 Kat CLUB Puan</button>
-        </div>
-        <h1 class="title">Şahane Cuma'nın Tam Zamanı!</h1>
-      </div>
-      <div class="card-right">
-        <img
-          crossorigin="anonymous"
-          src="/public/images/campain.jpg"
-          alt="Resmin açıklaması yok"
-          loading="eager"
-          fetchpriority="high"
-        />
-        <a
-          href="https://www.mediamarkt.com.tr/tr/campaign/black-friday"
-          class="buy-btn"
-          >Alışverişe Başla I></a
+  <div
+    class="w-[80vw] relative h-[50vh] border border-gray-300 rounded-2xl flex justify-center items-center overflow-hidden"
+  >
+    <div
+      class="w-[35%] h-full flex flex-col justify-start items-center pt-12 pl-4 gap-6"
+    >
+      <div
+        class="h-auto flex justify-start items-start gap-1 absolute top-4 left-2"
+      >
+        <button
+          v-for="tag in campain.tags"
+          :key="tag"
+          class="px-3 py-1 text-xs rounded-full text-black border border-red-500"
         >
+          {{ tag }}
+        </button>
       </div>
+      <h1 class="text-black italic font-extrabold text-3xl font-sans">
+        {{ campain.title }}
+      </h1>
+    </div>
+    <div class="w-[70%] h-full object-cover relative">
+      <img
+        crossorigin="anonymous"
+        :src="campain.img"
+        :alt="campain.title"
+        loading="eager"
+        fetchpriority="high"
+        class="w-full h-full object-cover"
+      />
+      <a
+        :href="campain.link"
+        class="absolute z-10 bottom-[5%] right-1/4 bg-black rounded-full text-white py-2 px-4 font-semibold text-lg no-underline flex items-center gap-2"
+        >Alışverişe Başla <span class="text-xl">&gt;</span></a
+      >
     </div>
   </div>
 </template>
 
-<script lang="ts" setup></script>
-
-<style>
-.wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.campain-card {
-  width: 80%;
-  height: 40%;
-  border: 0.8px rgb(184, 184, 184) solid;
-  border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.card-left {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  gap: 1.5rem;
-}
-.buttons {
-  height: auto;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 0.3rem;
-}
-.card-right {
-  width: 70%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-}
-.card-right > img {
-  height: 100%;
-  object-fit: cover;
-}
-.buttons > button {
-  width: auto;
-  padding: 0.3rem;
-  font-size: x-small;
-  border-radius: 5rem;
-  color: black;
-  border: 0.5px red solid;
-}
-.title {
-  color: black;
-  font-style: italic;
-}
-.buy-btn {
-  position: absolute;
-  z-index: 1;
-  bottom: 5%;
-  right: 25%;
-  background: black;
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  color: white;
-  padding: 0.5rem;
-  font-weight: 600;
-  font-size: large;
-  text-decoration: none;
-}
-</style>
+<style></style>

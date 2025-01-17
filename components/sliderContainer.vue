@@ -10,7 +10,7 @@ const currentIndex = ref(0);
 const itemsPerPage = 3;
 const showPageSelector = ref(false);
 const intervalId = ref<number | null>(null);
-const INTERVAL_DELAY = 5000; // 5 seconds
+const INTERVAL_DELAY = 15000; // 5 seconds
 
 // Calculate total number of pages
 const totalPages = computed(() =>
@@ -94,10 +94,10 @@ onUnmounted(() => {
       </div>
 
       <div
-        class="w-full h-[70vh] relative flex justify-start items-center px-12 overflow-hidden"
+        class="w-full h-full relative flex justify-start items-center overflow-hidden"
       >
         <div
-          class="w-full h-[50vh] relative flex transition-transform duration-1000 ease-in-out gap-4"
+          class="w-full h-[50vh] relative flex transition-transform duration-1000 ease-in-out"
           :style="{
             transform: `translateX(-${currentIndex * (100 / itemsPerPage)}%)`,
           }"
@@ -110,7 +110,6 @@ onUnmounted(() => {
             <img
               :src="item.img"
               :alt="item.title"
-              z
               class="h-3/5 w-full object-cover"
             />
             <div class="p-4 flex flex-col gap-2">
