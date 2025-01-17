@@ -37,11 +37,6 @@ defineProps<{
         fetchpriority="high"
         class="w-full h-full object-cover"
       />
-      <a
-        :href="campain.link"
-        class="absolute z-10 bottom-[5%] right-1/4 bg-black rounded-full text-white py-2 px-4 font-semibold text-lg no-underline flex items-center gap-2"
-        >Alışverişe Başla <span class="text-xl">&gt;</span></a
-      >
     </div>
   </div>
 </template>
