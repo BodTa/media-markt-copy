@@ -1,8 +1,8 @@
 <template>
   <div
-    class="w-full h-[12vh] text-white bg-[rgb(223,0,0)] flex flex-col justify-center items-center text-sm p-3"
+    class="w-full h-[15vh] text-white bg-[rgb(223,0,0)] flex flex-col justify-center items-center text-sm pl-8"
   >
-    <div class="w-4/5 flex flex-col justify-center items-center gap-3">
+    <div class="w-full flex flex-col justify-center items-center gap-3">
       <div class="w-full flex justify-start items-center gap-3">
         <span
           class="cursor-pointer font-semibold text-xs flex justify-center items-center hover:underline"
