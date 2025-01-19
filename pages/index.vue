@@ -5,35 +5,35 @@
         to="/opportunities"
         class="px-6 py-3 text-white bg-red-600 rounded-lg hover:bg-red-700 transition-colors"
       >
-        Fırsatlar
+        <button>Fırsatlar</button>
       </NuxtLink>
 
       <NuxtLink
         to="/categories"
         class="px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
       >
-        Kategoriler
+        <button>Kategoriler</button>
       </NuxtLink>
 
       <NuxtLink
         to="/categoryRecommendation"
         class="px-6 py-3 text-white bg-green-600 rounded-lg hover:bg-green-700 transition-colors"
       >
-        Kategori Önerileri
+        <button>Kategori Önerileri</button>
       </NuxtLink>
 
       <NuxtLink
         to="/picks"
         class="px-6 py-3 text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors"
       >
-        Senin için Önerilenler
+        <button>Senin için Önerilenler</button>
       </NuxtLink>
 
       <NuxtLink
         to="/services"
         class="px-6 py-3 text-white bg-gray-600 rounded-lg hover:bg-gray-700 transition-colors"
       >
-        Servislerimiz
+        <button>Servislerimiz</button>
       </NuxtLink>
     </div>
   </div>
