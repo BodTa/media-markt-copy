@@ -1,5 +1,5 @@
-export default interface Service {
-    id?: string;
-    title?: string;
-    image?: string;
+export default interface Services {
+    id: string;
+    title: string;
+    image: string;
 }

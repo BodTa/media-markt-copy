@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useMyServicesStore } from '~/stores/services'
+import { useServicesStore } from '~/stores/services'
 
 const servicesStore = useServicesStore()
 onMounted(async () => {

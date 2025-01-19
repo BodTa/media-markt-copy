@@ -12,6 +12,8 @@
 </template>
 
 <script lang="ts" setup>
+import type Service from '~/models/Service';
+
 defineProps<{
   services: Service[]
 }>()
@@ -52,7 +54,7 @@ defineProps<{
 
 .ourservices-item > img {
   width: auto;
-  height: 95px;
+  height: 140px;
   padding: 20px;
 }
 </style>
