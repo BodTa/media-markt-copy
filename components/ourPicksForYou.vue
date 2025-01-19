@@ -18,13 +18,13 @@ const props = defineProps<{
         <div class="ourPicksForYou-container">
             <div v-for="pick in picks" :key="pick.id" class="ourPicksForYou-item">
                 <p class="appPoint">App'e Özel 5 Kat Puan</p>
-                <img :src="pick.image" alt="" style="padding: 10px;"/>
+                <img :src="pick.image" alt="" style="padding: 10px; width: 210px; height: 170px;"/>
                 <p class="ourPicksForYou-p">{{ pick.title }}</p>
                 <p style="color: white; font-size: 30px; font-weight: bold; height: 6px; padding-left: 13px;">₺{{ pick.price }}-</p>
                 <p style="color: white; font-size: 13px; text-decoration: underline; padding-left: 13px;">KDV dahil ücretsiz kargo</p>
             </div>
             <div class="ourPicksForYou-item">
-               
+               <img src="/public/images/ourPicksForYouPhoto2.png" alt="" style="padding: 10px;">
                 <p style="color: white; padding-left: 10px; font-weight: bold; font-size: 13px;">Ürün önerilerine izin verin</p>
                 <p style="color: white; padding-left: 10px; font-size: 13px;">İlgi alanlarınıza bağlı olarak, sistemimiz aracılığıyla gerçekten ilginizi çeken ürünleri önerebiliriz. Bunu burada kabul etmelisiniz.</p>
                 <button style="width: 200px; height: 50px; font-size: 20px; font-weight: bold; border-radius: 10px; margin-top: 80px; margin-left: 12px;">Etkinleştir</button>
