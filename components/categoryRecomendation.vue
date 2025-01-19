@@ -12,6 +12,11 @@
 
 <script lang="ts" setup>
 import { useCategoryRecommendationStore } from '~/stores/categoryRECOMMENDATION'
+import type CategoryRecommendation from '~/models/categoryRecommendation'
+
+const props = defineProps<{
+    categoryRecommendation: CategoryRecommendation[]
+}>()
 
 const categoryRecommendationStore = useCategoryRecommendationStore()
 
@@ -20,6 +25,8 @@ categoryRecommendationStore.fetchCategoryRecommendation()
 
 <style>
 .category-recommendations {
+  top: 2000px;
+  position: relative;
   padding: 16px;
   background-color: black;
 }

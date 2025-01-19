@@ -1,5 +1,5 @@
-export default interface CategoryRecommendation {
-    id: string;
-    title: string;
-    image: string;
+export default interface categoryRecommendation {
+    id?: string;
+    image?: string;
+    title?: string;
 }
