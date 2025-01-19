@@ -4,7 +4,7 @@
     <h2>Tüm Kategoriler</h2>
     <ul>
       <li style="list-style-type: none;" v-for="category in categories" :key="category.id" class="category-item">
-        <span v-on:mouseover="toggleCategory(category.id,true)" v-on:mouseleave="toggleCategory(category.id,false)">
+        <span v-on:mouseover="toggleCategory(category.id,true)">
           {{ category.name }}
         </span>
         <ul v-if="category.open">

@@ -1,36 +1,21 @@
 <template>
   <div class="opportunities">
     <div class="opportunities-container">
-      <div class="opportunity-item">
-        <img src="/public/images/MobilUygulamamiziKesfedin.png" alt="" />
-        <p class="opportunity-subtext">Mobil Uygulamamızı<br> Keşfedin!</p>
-      </div>
-      <div class="opportunity-item">
-        <img src="/public/images/CLUBPuan.png" alt="" />
-        <p class="opportunity-subtext">CLUB Puan</p>
-        </div>
-      <div class="opportunity-item">
-        <img src="/public/images/IsBankasi.png" alt="" />
-        <p class="opportunity-subtext">İş Bankası</p>
-      </div>
-      <div class="opportunity-item">
-        <img src="/public/images/YapiKredi.png" alt="" />
-        <p class="opportunity-subtext">Yapı Kredi</p>
-      </div>
-      <div class="opportunity-item">
-        <img src="/public/images/9aVaranTaksitFirsati1.png" alt="" />
-        <p class="opportunity-subtext">9'a Varan Taksit Fırsatı!</p>
-      </div>
-      <div class="opportunity-item">
-        <img src="/public/images/9aVaranTaksitFirsati2.png" alt="" />
-        <p class="opportunity-subtext">9'a Varan Taksit Fırsatı!</p>
+      <div v-for="opportunity in opportunitiesStore.opportunities" :key="opportunity.id" class="opportunity-item">
+        <img :src="opportunity.image" alt="" />
+        <p class="opportunity-subtext">{{ opportunity.title }}</p>
       </div>
     </div>
     
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { useOpportunitiesStore } from '~/stores/Opportunity'
+const opportunitiesStore = useOpportunitiesStore()
+
+opportunitiesStore.fetchOpportunities()
+</script>
 
 <style>
 .opportunities {
