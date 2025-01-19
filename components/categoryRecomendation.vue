@@ -1,36 +1,22 @@
 <template>
   <div class="category-recommendations">
     <div class="category-container">
-      <div class="categoryy-item">
-        <img src="/public/images/CepTelefonlari.png" alt="" />
-        <p class="category-subtext">Cep Telefonları</p>
-      </div>
-      <div class="categoryy-item">
-        <img src="/public/images/Bilgisayarlar.png" alt="" />
-        <p class="category-subtext">Bilgisayarlar</p>
-        </div>
-      <div class="categoryy-item">
-        <img src="/public/images/BeyazEsya.png" alt="" />
-        <p class="category-subtext">Beyaz Eşya</p>
-      </div>
-      <div class="categoryy-item">
-        <img src="/public/images/KucukEvAletleri.png" alt="" />
-        <p class="category-subtext">Küçük Ev Aletleri</p>
-      </div>
-      <div class="categoryy-item">
-        <img src="/public/images/Supurgeler.png" alt="" />
-        <p class="category-subtext">Süpürgeler</p>
-      </div>
-      <div class="categoryy-item">
-        <img src="/public/images/Televizyonlar.png" alt="" />
-        <p class="category-subtext">Televizyonlar</p>
+      <div v-for="category in categoryRecommendationStore.categoryRecommendation" :key="category.id" class="categoryy-item">
+        <img :src="category.image" alt="" />
+        <p class="category-subtext">{{ category.title }}</p>
       </div>
     </div>
     
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { useCategoryRecommendationStore } from '~/stores/categoryRECOMMENDATION'
+
+const categoryRecommendationStore = useCategoryRecommendationStore()
+
+categoryRecommendationStore.fetchCategoryRecommendation()
+</script>
 
 <style>
 .category-recommendations {
