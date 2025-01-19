@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NavigationBar />
     <NuxtPage />
   </div>
 </template>
@@ -13,7 +14,7 @@ import Footer from "./components/footer.vue";
 import Slider from "./components/slider.vue";
 import Opportunities from "./components/opportunities.vue";
 import OurServices from "./components/ourServices.vue";
-import ProductAdvert from "./components/ourPicksForYou.vue";
+import OurPicksForYou from "./components/ourPicksForYou.vue";
 import CampainCard from "./components/campainCard.vue";
 import SpecialOffers from "./components/specialOffers.vue";
 export default {
