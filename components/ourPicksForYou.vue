@@ -37,6 +37,8 @@ const props = defineProps<{
 <style>
 
 .ourPicksForYou {
+    top: 1500px;
+    position: relative;
     padding-top: 30px;
 }
 
