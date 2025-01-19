@@ -2,10 +2,10 @@
   <div class="w-full h-screen flex flex-col items-center justify-center">
     <div class="flex items-center justify-center min-h-screen gap-4">
       <NuxtLink
-        to="/advert"
+        to="/opportunities"
         class="px-6 py-3 text-white bg-red-600 rounded-lg hover:bg-red-700 transition-colors"
       >
-        Ürünler
+        Fırsatlar
       </NuxtLink>
 
       <NuxtLink
