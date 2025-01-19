@@ -11,4 +11,8 @@ import { useOpportunitiesStore } from '~/stores/Opportunity'
 const opportunitiesStore = useOpportunitiesStore()
 
 opportunitiesStore.fetchOpportunities()
+
+onMounted(() => {
+    opportunitiesStore.fetchOpportunities()
+})
 </script>

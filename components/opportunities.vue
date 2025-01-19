@@ -1,24 +1,32 @@
 <template>
   <div class="opportunities">
     <div class="opportunities-container">
-      <div v-for="opportunity in opportunitiesStore.opportunities" :key="opportunity.id" class="opportunity-item">
+      <div v-for="opportunity in opportunitiesStore.opportunities" class="opportunity-item">
         <img :src="opportunity.image" alt="" />
         <p class="opportunity-subtext">{{ opportunity.title }}</p>
       </div>
     </div>
-    
   </div>
 </template>
 
 <script lang="ts" setup>
 import { useOpportunitiesStore } from '~/stores/Opportunity'
+import type Opportunity from '~/models/OPPORTUNITIES'
+import { computed } from 'vue'
+const props = defineProps<{
+    opportunities: Opportunity[]
+}>()
 const opportunitiesStore = useOpportunitiesStore()
+
+const opportunities = computed((): Opportunity[] => opportunitiesStore.opportunities)
 
 opportunitiesStore.fetchOpportunities()
 </script>
 
 <style>
 .opportunities {
+  top: 1000px;
+  position: relative;
   padding: 16px;
   background-color: black;
 }
