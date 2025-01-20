@@ -15,15 +15,5 @@ export const useMyPicksStore = defineStore({
         id: doc.id,
       })) as Pick[];
     },
-
-/*    async addPick(pick: Pick) {
-      const { $db } = useNuxtApp()
-      const picksCollection = collection($db, 'picks')
-      const docRef = await addDoc(picksCollection, pick)
-      this.picks.push({
-        ...pick,
-        id: docRef.id
-      })
-    }*/
   }
 })
