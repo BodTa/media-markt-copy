@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import type { Auth } from "firebase/auth";
+import type User from "~/models/User";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
@@ -8,7 +9,7 @@ import {
 
 export const useAuthStore = defineStore("auth", {
   state: () => ({
-    user: null as null | { uid: string; email: string },
+    user: null as null | User,
     error: null as null | string,
     loading: false,
   }),

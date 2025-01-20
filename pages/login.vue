@@ -49,10 +49,7 @@
         {{ authStore.error }}
       </div>
       <div class="mt-4 text-center">
-        <NuxtLink
-          to="/auth/register"
-          class="text-sm text-gray-600 hover:text-black"
-        >
+        <NuxtLink to="/register" class="text-sm text-gray-600 hover:text-black">
           Hesabınız yok mu? Kayıt olun
         </NuxtLink>
       </div>
@@ -75,6 +72,9 @@ const handleLogin = async () => {
   await authStore.login(email.value, password.value);
 
   if (!authStore.error && authStore.user) {
+    alert(
+      `Hoş geldiniz!\nE-posta: ${authStore.user.email}\nID: ${authStore.user.uid}`
+    );
     await router.push("/"); // Redirect to home page after successful login
   }
 };

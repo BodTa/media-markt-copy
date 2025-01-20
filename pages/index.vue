@@ -35,6 +35,20 @@
       >
         Footer Page
       </NuxtLink>
+
+      <NuxtLink
+        to="/login"
+        class="px-6 py-3 text-white bg-yellow-600 rounded-lg hover:bg-yellow-700 transition-colors"
+      >
+        Login
+      </NuxtLink>
+
+      <NuxtLink
+        to="/register"
+        class="px-6 py-3 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition-colors"
+      >
+        Register
+      </NuxtLink>
     </div>
   </div>
 </template>
