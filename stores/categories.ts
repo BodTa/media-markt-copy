@@ -1,3 +1,4 @@
+import { getDocs } from 'firebase/firestore';
 import { defineStore } from 'pinia'
 import type CategoryRecommendation from '~/models/categoryRecommendation';
 
